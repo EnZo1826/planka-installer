@@ -1,7 +1,7 @@
 services:
   planka:
     container_name: planka
-    image: ghcr.io/plankanban/planka:latest
+    image: ghcr.io/plankanban/planka:2.0.0-rc.3
     restart: on-failure
     volumes:
       - user-avatars:/app/public/user-avatars
